@@ -1,0 +1,41 @@
+[
+  {
+    "title": "Quantum T-Shirt",
+    "body_html": "100% cotton. Ideal for qubit lovers.",
+    "vendor": "MarketConnect",
+    "product_type": "T-Shirts",
+    "tags": ["quantum", "cotton", "apparel"],
+    "variants": [
+      {
+        "price": "29.99",
+        "inventory_quantity": 10
+      }
+    ]
+  },
+  {
+    "title": "Axon Coffee Mug",
+    "body_html": "🔥 Updated description!",
+    "vendor": "MarketConnect",
+    "product_type": "Mugs",
+    "tags": ["axon", "coffee", "java"],
+    "variants": [
+      {
+        "price": "17.99",
+        "inventory_quantity": 10
+      }
+    ]
+  },
+  {
+    "title": "READY Coffee Mug",
+    "body_html": "For event-sourced coffee!",
+    "vendor": "MarketConnect",
+    "product_type": "Mugs",
+    "tags": ["DAD", "coffee", "java"],
+    "variants": [
+      {
+        "price": "23.65",
+        "inventory_quantity": 6
+      }
+    ]
+  }
+]
