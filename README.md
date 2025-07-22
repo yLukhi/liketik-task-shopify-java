@@ -1,23 +1,24 @@
 # Test Task for Liketik
-**Created by:** Yashkumar Lukhi  
-**Email:** yashlukhi96@gmail.com
+
+**Created by:** Yashkumar Lukhi
+**Email:** [yashlukhi96@gmail.com](mailto:yashlukhi96@gmail.com)
 
 # Shopify Integration Backend (Java + Spring Boot + Axon)
+
 This project implements a **Shopify integration backend** with the following features:
 
-- **Fetch Customers** from Shopify (`/api/customers`)
-- **Fetch Orders & Shipping Data** from Shopify (`/api/orders`)
-- **Push Products** to Shopify (using **CQRS & Axon Framework**)
-- **Real-Time Webhooks** for order creation (`/api/webhooks/orders`)
-- **Product Update Support** (update if the product already exists)
-- **Dockerized Application** for easy deployment
+* **Fetch Customers** from Shopify (`/api/customers`)
+* **Fetch Orders & Shipping Data** from Shopify (`/api/orders`)
+* **Push Products** to Shopify (using **CQRS & Axon Framework**)
+* **Real-Time Webhooks** for order creation (`/api/webhooks/orders`)
+* **Product Update Support** (update if the product already exists)
+* **Dockerized Application** for easy deployment
 
 ---
 
 ## **1. Project Structure**
 
 ```
-
 src/
 ├── main/
 │   ├── java/com/shopify/integration/marketconnect/
@@ -30,27 +31,38 @@ src/
 │   └── resources/
 │        ├── application.properties
 │        ├── products.json      # Product data for pushing
-
-````
+```
 
 ---
 
 ## **2. Setup**
 
-### **2.1 Prerequisites**
-- Java 17+
-- Gradle (or use the included `gradlew`)
-- Docker (optional, for containerized runs)
-- A Shopify **dev store** and **Admin API access token**
+### **2.1 Clone the Repository**
+
+```bash
+git clone https://github.com/yLukhi/liketik-task-shopify-java.git
+cd liketik-task-shopify-java
+```
 
 ---
 
-### **2.2 Configure Shopify Credentials**
+### **2.2 Prerequisites**
+
+* Java 17+
+* Gradle (or use the included `gradlew`)
+* Docker (optional, for containerized runs)
+* A Shopify **dev store** and **Admin API access token**
+
+---
+
+### **2.3 Configure Shopify Credentials**
+
 Edit `src/main/resources/application.properties`:
+
 ```properties
 shopify.api.url=https://your-dev-store.myshopify.com/admin/api/2023-07/
 shopify.api.token=shpat_your_token_here
-````
+```
 
 ---
 
